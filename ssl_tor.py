@@ -5,7 +5,6 @@
 
 import sys
 import struct
-import sys
 import socket
 import time
 from time import gmtime, strftime
