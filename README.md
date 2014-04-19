@@ -1,4 +1,4 @@
-#### Heartbleed Script for Vulnerable Tor Exit Nodes
+### Heartbleed Script for Vulnerable Tor Exit Nodes
 ====================
 This script takes in a list of Tor exit nodes. It assumes that they run on port 443. Iterates through the list every 5 minutes and if the script succeeds for an exit node, it runs the exploit four more times on the same node, and moves on to the next one on the list.
 
