@@ -8,7 +8,7 @@ python ssl_tor.py vulnerable_exit_nodes
 ```
 
 ##### Improvements to be made:
-  - Currently the script only tries port 443, and gives up if it fails. Tor's exit node list can be parsed keeping the port in mind, and the list can have entries in the form of <ip>:<port>.
+  - Currently the script only tries port 443, and gives up if it fails. Tor's exit node list can be parsed keeping the port in mind, and the list can have entries in the form of \<ip\>:\<port\>.
   - The script fetches the maximum amount of memory that can be fetched. Fetching smaller amounts might result in acquiring different memory locations, leading to more sensitive information being revealed.
 
 Feel free to make changes to the code and put a pull request.
